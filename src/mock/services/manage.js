@@ -4,7 +4,6 @@ import { builder, getQueryParameters } from '../util'
 const totalCount = 5701
 
 const serverList = (options) => {
-  console.log('>>>manage<<<' + options)
   const parameters = getQueryParameters(options)
   const result = []
   const pageNo = parseInt(parameters.pageNo)
