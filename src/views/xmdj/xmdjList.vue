@@ -114,7 +114,7 @@ export default {
       this.$refs.table.refresh()
     },
     handleAppend () {
-      this.$router.push({ path: '/list/search/article', params: { a: 'aa' } })
+      this.$router.push({ path: '/xmdjAppend', params: { a: 'aa' } })
     },
     handleEdit (record) {
       console.log(record)

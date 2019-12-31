@@ -21,6 +21,13 @@ export const asyncRouterMap = [
         component: () => import('@/views/xmdj/xmdjList'),
         meta: { title: '项目登记', icon: 'profile', keepAlive: true, permission: [ 'support' ] }
       },
+      {
+        path: '/xmdjAppend',
+        name: 'xmdjAppend',
+        component: () => import('@/views/xmdj/XmdjAppend'),
+        hidden: true,
+        meta: { title: '项目登记新增', icon: 'profile', keepAlive: true, hiddenHeaderContent: true, permission: [ 'support' ] }
+      },
       // forms
       {
         path: '/form',
