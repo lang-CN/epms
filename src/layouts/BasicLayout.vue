@@ -47,11 +47,11 @@
         </transition>
       </a-layout-content>
 
-      <!-- layout footer -->
+      <!-- layout footer
       <a-layout-footer>
         <global-footer />
       </a-layout-footer>
-
+      -->
       <!-- Setting Drawer (show in development mode) -->
       <setting-drawer v-if="!production"></setting-drawer>
     </a-layout>
