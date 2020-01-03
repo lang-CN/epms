@@ -9,7 +9,7 @@ function resolve (dir) {
 const isProd = process.env.NODE_ENV === 'production'
 
 const assetsCDN = {
-  // webpack build externals
+  // webpack build externals 
   externals: {
     vue: 'Vue',
     'vue-router': 'VueRouter',
