@@ -28,7 +28,7 @@ const assetsCDN = {
 
 // vue.config.js
 const vueConfig = {
-  publicPath: isProd ? './' : '/',
+  publicPath: isProd ? '/epms/' : '/',
   configureWebpack: {
     // webpack plugins
     plugins: [
