@@ -28,6 +28,7 @@ const assetsCDN = {
 
 // vue.config.js
 const vueConfig = {
+  baseUrl: isProd ? '/epms/' : '/',
   configureWebpack: {
     // webpack plugins
     plugins: [
